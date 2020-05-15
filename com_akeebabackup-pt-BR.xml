@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="file" method="upgrade" version="3">
+    <name>Akeeba Backup - pt-BR</name>
+    <version>v3</version>
+    <creationDate>20/05/2020</creationDate>
+    <author>Uziel</author>
+    <authorEmail>contato@pontomega.com.br</authorEmail>
+    <authorUrl>https://akeeba.com</authorUrl>
+    <copyright>© 2020 - Uziel - Ponto Mega. All rights reserved!</copyright>
+    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+
+    <description>
+        <![CDATA[ Esta é a versão mais recente para português do Brasil para o componente Akeeba Backup ]]>
+    </description>
+    <fileset>
+        <files folder="admin" target="administrator/language/pt-BR">
+<filename>pt-BR.com_akeeba.ini</filename>
+<filename>pt-BR.com_akeeba.sys.ini</filename>
+<filename>pt-BR.plg_quickicon_akeebabackup.ini</filename>
+<filename>pt-BR.plg_quickicon_akeebabackup.sys.ini</filename>
+<filename>pt-BR.plg_system_akeebaupdatecheck.ini</filename>
+<filename>pt-BR.plg_system_akeebaupdatecheck.sys.ini</filename>
+<filename>pt-BR.plg_system_backuponupdate.ini</filename>
+<filename>pt-BR.plg_system_backuponupdate.sys.ini</filename>
+
+</files>
+        <files folder="site" target="language/pt-BR">
+        <filename>pt-BR.com_akeeba.ini</filename>
+        </files>
+    </fileset>
+</extension>
